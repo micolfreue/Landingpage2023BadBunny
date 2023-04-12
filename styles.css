@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+html{
+    font-family: 'Inter' , sans-serif; 
+}
+
+body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo img { width: 300px;}
+.logo{ text-align:left;}
+.titulo { margin: 30px; color: white;} 
+
+#header h1{
+    font-family: 'chunkfive-p';
+    
+}
+
+#formData{
+    width:40%;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 20px ;
+    color: white;
+}
+
+#formData input{
+    width:100%;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid grey;
+    box-sizing:border-box;
+}
+#formData input[type='radio']{
+    width: auto;
+}
+
+#formData select{
+    width:100%;
+    padding: 10px;
+    border-radius: 5px;
+    border:none
+}
+#formData textarea{
+    width:96%;
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid grey;
+}
+#formData>div{
+    margin-bottom: 1.5em;
+}
+#formData input[type='submit']{
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+#formData input[type='submit']:hover{
+    background: rgb(87, 83, 83);
+    color: rgb(254, 254, 254);
+    cursor: pointer;
+} 
+
+.logoo img {width: 800px;} 
+
+.primerpagina { background-image: url('img2/badprimerapag.jpg'); background-size: cover; display: flex; flex-direction: column;justify-content: center;align-items: center; gap: 20px; color: white;} 
+.segundapagina { background-image: url( https://static.vecteezy.com/system/resources/previews/004/835/687/non_2x/blue-pastel-gradient-background-color-effect-free-vector.jpg); background-size: cover;} 
+.tercerapagina { background-image: url(https://static.vecteezy.com/system/resources/previews/004/835/687/non_2x/blue-pastel-gradient-background-color-effect-free-vector.jpg); background-size: cover;} 
+.cuartapagina { background-image: url(https://www.elheraldo.co/sites/default/files/articulo/2022/01/28/web-1.png); background-size: cover;} 
+
+
+.fotobadbunny1 img {width: 500px;}
+.fotobadbunny2 img {width: 500px;}
+.fotos1y2 {display: flex; gap:50px; justify-content: center; width: 100%; }
+.fotobadbunny1 {width: 500px;}
+.fotobadbunny2 {width: 500px;}
+.fotobadbunny1 p {color: white; padding: 20px; border:2px solid white ; background-color: black;}
+.titulo2 {margin-left: 20px; margin-top: 20px; color: white; padding: 20px; font-size: 25px;}
+.fotobadbunny2 p {color: white;}
+.cajautografo {color: white;}
+.fotogrupal img {width:500px}
+.fotogrupal2 img {width: 500px;}
+.fotos3y4 {display: flex; justify-content: center; gap:50px;width: 100%; margin-left: 50px; color: white; }
+.copyright {color: white; text-align: center;}
+.titulo3 {margin-left: 20px; margin-top: 20px; color: white;padding: 20px; font-size: 25px;}
+.parrafo p {font-size: 20px;color: white; padding: 20px; border:2px solid black ; background-color:black;}
+.titulo1 h2 {font-size: 60px;}
+.copyright h2 {font-size: 15px;}
+.fotogrupal img {width:500px;}
+.fotogrupal p {width:500px}
+.fotogrupal2 p {width:500px}
+.fotogrupal2 img {width:500px;}
+.cajabox p {color: white; font-size: 20px;}
+.participa h2 {padding-bottom: 50px; border:2px solid black;  padding: 20px; background-color: rgb(255, 241, 204); color:black}
+.Gracias h1 {font-size: 25px; text-align: center;margin-left: 20px; margin-top: 20px; color: rgb(11, 10, 10);padding: 20px; font-size: 25px;background-color: rgb(238, 229, 184);}
+.fotobadrespuesta img {width: 1500px; justify-content: center;}
+.text p {color: black; text-align: center;}

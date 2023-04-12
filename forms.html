@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet & Greet</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    
+    <div> 
+    <header id="header">
+        <header>
+       
+            <div class= "logo">  
+            <img src= "img/logobad.png" alt="" >
+            </div>
+            <div class="titulo"> 
+                <h1>Meet & Greet</h1>
+            </div>
+    </div>
+    </header>
+
+        <form id="formData" action="respuesta.html">
+           
+            <div class="textlabel">
+                <label >
+                    <span>
+                        Nombre y Apellido
+                    </span> 
+                    
+                    <input type="text" name="nombre" required>
+                </label>
+            </div>
+            
+            <div>
+                <label>
+                    <span>Mail</span>
+                    <input type="email" name="email" required>
+                </label>
+            </div>
+
+            <div>
+                <p>Género</p>
+
+                <label>
+                    <input type="radio" name="genero" value="f" >
+                    <span>Femenino</span>
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="genero" value="m" >
+                    <span>Masculino</span>
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="genero" value="false" >
+                    <span>Prefiero no decirlo</span>
+                </label>
+            </div>
+
+            <div>
+                <label for="campoLocalidad">
+                    <span>
+                        Localidad
+                    </span>
+                    <select name="localidad" id="campoLocalidad">
+                        <option>Seleccione..</option>
+                        <option>CABA</option>
+                        <option>Tandil</option>
+                        <option>Rosario</option>
+                        <option>La Plata</option>
+                        <option>Córdoba</option>
+                        <option>Bariloche</option>
+                        <option>Entre Ríos</option>
+                        <option>San Luis</option>
+                        <option>Tigre</option>
+                        <option>Pilar</option>
+                        <option>Otro</option>
+                    </select>
+                </label>
+            </div>
+
+            <div>
+                <form>
+                    <label for="campomensaje">¿Por qué querés conocer a Bad Bunny?   </label>
+                    <input type="text" id="campoMensaje" name="nombre" placeholder="Escriba aquí...">
+                  </form>
+               
+            </div>
+
+            <div class="enviar">
+                <input type="submit" value="Enviar">
+            </div>
+
+                    
+            
+        </form>
+
+    </div> 
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
